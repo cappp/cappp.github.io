@@ -35,7 +35,6 @@ main img {
 main h1 {
   margin-bottom: 10px;
   font-size: 3em;
-  font-weight: bold;
 }
 
 main p {
@@ -96,8 +95,8 @@ section div img {
   height: 30px;
 }
 
-section div h3 {
-  font-size: 1em;
+section div h4 {
+  font-weight: normal
 }
 
 @media (max-width: 600px) {
