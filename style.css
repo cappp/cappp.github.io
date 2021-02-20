@@ -10,97 +10,91 @@
 
 ::selection {
   background-color: #bd93f9;
+  color: #000;
 }
 
 body {
   font-family: Inter, sans-serif;
-  background-color: #fff;
+  background-color: #000;
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: #bd93f9;
+}
+
 main {
-  margin-bottom: 10px;
-  padding: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main #about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000;
 }
 
-main img {
+main #about img {
+  margin-bottom: 20px;
   width: 200px;
-  height: 200px;
 }
 
-main h1 {
+main #about h1 {
   margin-bottom: 10px;
   font-size: 3em;
 }
 
-main p {
+main #about p {
   margin-bottom: 20px;
-  color: #d4d4d4;
 }
 
-#skills {
-  margin-bottom: 30px;
+main #social {
+  margin-bottom: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#skills img {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-}
-
-#skills span {
-  margin: 0 10px;
-}
-
-section {
-  padding: 20px;
-  background-color: #ffffff;
+  border-radius: 3px;
+  background-color: #fff;
   color: #000;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-}
-
-section div {
-  cursor: pointer;
-  margin-right: 10px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  border-radius: 3px;
-  transition: background-color 200ms;
-}
-
-section div:hover {
-  background-color: #cfcfcf;
-}
-
-section a {
+main #social a {
   text-decoration: none;
   color: #000;
 }
 
-section div img {
+main #social div {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 200ms;
+}
+
+main #social div:hover {
+  background-color: #d6d6d6;
+}
+
+main #social div img {
   margin-right: 10px;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
-section div h4 {
-  font-weight: normal
+footer {
+  color: #afafaf;
 }
 
-@media (max-width: 600px) {
-  section {
+@media (max-width: 500px) {
+  main {
+    margin: 30px;
+    height: auto;
+  }
+
+  main #social {
+    width: 100%;
     flex-direction: column;
   }
 }
