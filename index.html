@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="O0ffVJYa9ZzLZ93e021-6euslGZiYjZbJK8zAd03DsQ" />
+    <meta
+      name="google-site-verification"
+      content="O0ffVJYa9ZzLZ93e021-6euslGZiYjZbJK8zAd03DsQ"
+    />
     <meta property="og:site_name" content="Website" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cap" />
@@ -17,6 +20,7 @@
     <meta property="theme-color" content="#000000" />
     <title>Cap</title>
     <link rel="icon" href="./assets/img/icon.svg" />
+    <link rel="stylesheet" href="./assets/lib/tippy.js/themes/light.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -28,48 +32,77 @@
       </div>
       <div id="social">
         <a href="https://www.buymeacoffee.com/cappp">
-          <div>
+          <div
+            role="tooltip"
+            data-tippy-content="Buy Me a Coffee"
+            data-tippy-placement="bottom"
+            data-tippy-delay="[1000, 200]"
+          >
             <img src="./assets/img/coffee.svg" alt="Buy Me a Coffee" />
-            Buy Me a Coffee
           </div>
         </a>
         <a href="https://github.com/cappp">
-          <div>
+          <div
+            role="tooltip"
+            data-tippy-content="GitHub"
+            data-tippy-placement="bottom"
+            data-tippy-delay="[1000, 200]"
+          >
             <img src="./assets/img/github.svg" alt="GitHub" />
-            GitHub
           </div>
         </a>
         <a href="https://twitter.com/caaapp">
-          <div>
+          <div
+            role="tooltip"
+            data-tippy-content="Twitter"
+            data-tippy-placement="bottom"
+            data-tippy-delay="[1000, 200]"
+          >
             <img src="./assets/img/twitter.svg" alt="Twitter" />
-            Twitter
           </div>
         </a>
         <a href="https://www.youtube.com/channel/UCgNAAE3T51Y33M_WpMvXRAA">
-          <div>
+          <div
+            role="tooltip"
+            data-tippy-content="YouTube"
+            data-tippy-placement="bottom"
+            data-tippy-delay="[1000, 200]"
+          >
             <img src="./assets/img/youtube.svg" alt="YouTube" />
-            YouTube
           </div>
         </a>
         <a href="https://twitch.tv/caapppp">
-          <div>
+          <div
+            role="tooltip"
+            data-tippy-content="Twitch"
+            data-tippy-placement="bottom"
+            data-tippy-delay="[1000, 200]"
+          >
             <img src="./assets/img/twitch.svg" alt="Twitch" />
-            Twitch
           </div>
         </a>
-        <a href="mailto:caapppp@outlook.com" title="caapppp@outlook.com">
-          <div>
+        <a href="mailto:caapppp@outlook.com">
+          <div
+            role="tooltip"
+            data-tippy-content="Email"
+            data-tippy-placement="bottom"
+            data-tippy-delay="[1000, 200]"
+          >
             <img src="./assets/img/email.svg" alt="Email" />
-            Email
           </div>
         </a>
       </div>
       <footer>
         <small
           >Most of the icons made by
-          <a href="https://iconmonstr.com/">iconmonstr</a></small
+          <a href="https://iconmonstr.com/">iconmonstr</a> 💜</small
         >
       </footer>
     </main>
+    <script src="./assets/lib/popper/popper.js"></script>
+    <script src="./assets/lib/tippy.js/tippy.js"></script>
+    <script>
+      tippy('*[role="tooltip"]', { theme: "light" });
+    </script>
   </body>
 </html>
