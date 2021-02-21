@@ -43,7 +43,7 @@ main #about img {
   margin-right: 25px;
   margin-bottom: -22px;
   width: 200px;
-  transform: rotate(-10deg);
+  transform: rotate(-12deg);
   transition: 200ms;
 }
 
