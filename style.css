@@ -90,11 +90,6 @@ footer {
 }
 
 @media (max-width: 500px) {
-  main {
-    margin: 30px;
-    height: auto;
-  }
-
   main #social {
     grid-template-columns: repeat(3, auto);
   }
