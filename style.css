@@ -33,6 +33,7 @@ main {
 }
 
 main #about {
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,7 +60,7 @@ main #about h1 {
 }
 
 main #about p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 main #social {
