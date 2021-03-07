@@ -82,6 +82,7 @@ main #social div {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 3px;
   transition: background-color 200ms;
 }
 
