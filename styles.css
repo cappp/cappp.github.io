@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #000;
   color: #fff;
 }
@@ -52,7 +52,7 @@ main #about img:hover {
 
 main #about h1 {
   margin-bottom: 10px;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: lighter;
 }
 
@@ -89,7 +89,7 @@ main #social div:hover {
 
 main small {
   text-align: center;
-  color: #afafaf;
+  color: #d3d3d3;
 }
 
 @media (max-width: 500px) {

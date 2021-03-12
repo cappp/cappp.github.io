@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,23 +11,27 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cap" />
     <meta property="og:description" content="Doing what i love, helping." />
-    <meta
-      property="og:image"
-      content="https://cappp.github.io/assets/img/icon.png"
-    />
-    <meta name="keywords" content="Cap, Website, Site, Personal, Pessoal" />
+    <meta property="og:image" content="https://cappp.github.io/img/icon.png" />
+    <meta name="keywords" content="Cap, Website, Site, Personal" />
     <meta name="description" content="Cap Website" />
     <meta property="theme-color" content="#000000" />
     <title>Cap</title>
-    <link rel="icon" href="./assets/img/icon.png" />
-    <link rel="stylesheet" href="./assets/fonts/inter/inter.css" />
-    <link rel="stylesheet" href="./assets/lib/tippy.js/themes/light.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./img/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tippy.js@6/themes/light.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main>
       <div id="about">
-        <img src="./assets/img/cap.svg" alt="Cap" width="200px"  height="200px" />
+        <img src="./img/cap.svg" alt="Cap" width="200px" />
         <h1>Cap</h1>
         <p>Doing what i love, helping.</p>
         <small>🔨 Developer • Designer 🎨</small>
@@ -40,7 +44,12 @@
             data-tippy-placement="bottom"
             data-tippy-delay="[1000, 200]"
           >
-            <img src="./assets/img/coffee.svg" alt="Buy Me a Coffee" width="20px" height="20px" />
+            <img
+              src="./img/coffee.svg"
+              alt="Buy Me a Coffee"
+              width="20px"
+              height="20px"
+            />
           </div>
         </a>
         <a href="https://github.com/cappp">
@@ -50,7 +59,12 @@
             data-tippy-placement="bottom"
             data-tippy-delay="[1000, 200]"
           >
-            <img src="./assets/img/github.svg" alt="GitHub" width="20px" height="20px" />
+            <img
+              src="./img/github.svg"
+              alt="GitHub"
+              width="20px"
+              height="20px"
+            />
           </div>
         </a>
         <a href="https://twitter.com/caaapp">
@@ -60,7 +74,12 @@
             data-tippy-placement="bottom"
             data-tippy-delay="[1000, 200]"
           >
-            <img src="./assets/img/twitter.svg" alt="Twitter" width="20px" height="20px" />
+            <img
+              src="./img/twitter.svg"
+              alt="Twitter"
+              width="20px"
+              height="20px"
+            />
           </div>
         </a>
         <a href="https://www.youtube.com/channel/UCgNAAE3T51Y33M_WpMvXRAA">
@@ -70,7 +89,12 @@
             data-tippy-placement="bottom"
             data-tippy-delay="[1000, 200]"
           >
-            <img src="./assets/img/youtube.svg" alt="YouTube" width="20px" height="20px" />
+            <img
+              src="./img/youtube.svg"
+              alt="YouTube"
+              width="20px"
+              height="20px"
+            />
           </div>
         </a>
         <a href="https://twitch.tv/caapppp">
@@ -80,7 +104,12 @@
             data-tippy-placement="bottom"
             data-tippy-delay="[1000, 200]"
           >
-            <img src="./assets/img/twitch.svg" alt="Twitch" width="20px" height="20px" />
+            <img
+              src="./img/twitch.svg"
+              alt="Twitch"
+              width="20px"
+              height="20px"
+            />
           </div>
         </a>
         <a href="mailto:caapppp@outlook.com">
@@ -90,7 +119,7 @@
             data-tippy-placement="bottom"
             data-tippy-delay="[1000, 200]"
           >
-            <img src="./assets/img/email.svg" alt="Email" width="20px" height="20px" />
+            <img src="./img/email.svg" alt="Email" width="20px" height="20px" />
           </div>
         </a>
       </div>
@@ -99,8 +128,8 @@
         <a href="https://iconmonstr.com/">iconmonstr</a> 💜</small
       >
     </main>
-    <script src="./assets/lib/popper/popper.js"></script>
-    <script src="./assets/lib/tippy.js/tippy.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     <script>
       tippy('*[role="tooltip"]', { theme: "light" });
     </script>
