@@ -55,13 +55,8 @@ main #about img:hover {
 }
 
 main #about h1 {
-  margin-bottom: 10px;
   font-size: 3rem;
   font-weight: lighter;
-}
-
-main #about p {
-  margin-bottom: 10px;
 }
 
 main #social {
