@@ -56,7 +56,6 @@ main #about img:hover {
 
 main #about h1 {
   font-size: 3rem;
-  font-weight: lighter;
 }
 
 main #social {
@@ -74,7 +73,7 @@ main #social a {
 }
 
 main #social div {
-  padding: 15px;
+  padding: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
