@@ -91,7 +91,7 @@ input#hidden-button {
   left: 60%;
 }
 
-input#hidden-button + label > img {
+input#hidden-button+label>img {
   cursor: grab;
   width: 100%;
   display: none;
@@ -103,7 +103,7 @@ input#hidden-button + label > img {
   bottom: 0;
 }
 
-input#hidden-button:checked + label > img {
+input#hidden-button:checked+label>img {
   display: block;
 }
 
