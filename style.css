@@ -52,7 +52,8 @@ main #about h1 {
 
 main #social {
   margin-bottom: 20px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   border-radius: 3px;
   background-color: #fff;
   color: #000;
@@ -93,7 +94,7 @@ input#hidden-button {
   left: 60%;
 }
 
-input#hidden-button+label>img {
+input#hidden-button + label > img {
   cursor: grab;
   width: 100%;
   display: none;
@@ -105,7 +106,7 @@ input#hidden-button+label>img {
   bottom: 0;
 }
 
-input#hidden-button:checked+label>img {
+input#hidden-button:checked + label > img {
   display: block;
 }
 
@@ -132,6 +133,12 @@ span#nokia {
 @media screen and (max-width: 300px) {
   html {
     zoom: 0.9;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main #social {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
