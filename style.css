@@ -97,6 +97,7 @@ input#hidden-button {
 input#hidden-button + label > img {
   cursor: grab;
   width: 100%;
+  height: 100%;
   display: none;
   margin: auto;
   position: fixed;
