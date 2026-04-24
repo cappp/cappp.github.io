@@ -53,7 +53,7 @@ main #about h1 {
 main #social {
   margin-bottom: 20px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   border-radius: 3px;
   background-color: #fff;
   color: #000;
@@ -139,7 +139,7 @@ span#nokia {
 
 @media screen and (max-width: 500px) {
   main #social {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
   }
 }
 
